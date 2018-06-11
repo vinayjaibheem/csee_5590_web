@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ToDo List</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<body ng-app='toDoList' ng-controller='toDoListCtrl'>
+ <!-- ng-controller is a brain of our application.
+  It will hold logics required by the application
+  -->
+
+
+  <!--ng-repeat will loop through the taskList -->
+  <div ng-repeat='task in taskList'>
+    <!-- A checkbox displaying the progress -->
+    <input type='checkbox' ng-model='task.done' />
+    <!-- An information of a task -->
+    <span ng-class='{done: task.done}'>{{task.task}}</span>
+  </div>
+<div class='input-form'>
+  <input type='text' ng-model='newTask' />
+  <button ng-click='addTask(newTask)'>Add</button>
+</div>
+
+
+
+</body>
+
+</html>

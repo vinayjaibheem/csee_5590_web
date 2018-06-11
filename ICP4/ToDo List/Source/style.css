@@ -1,0 +1,16 @@
+body
+{
+  background-image: url("bg.jpg");
+  color: white;
+}
+
+.done
+{
+  text-decoration: line-through;
+}
+
+.input-form
+{
+  border-top: dashed 1px;
+  padding-top: 1em;
+}

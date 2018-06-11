@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Course Selection</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link href="./css/stylesheet.css" rel="stylesheet">
+        <script src="./js/lab1.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row top-buffer">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <a href="index.html"><h1>Home Page</h1></a>
+                            <h1>Course Search</h1>
+                        </div>
+                        <div class="panel-body">
+                            <div class="form-group" id="form_id">
+                                <label>Education Type</label>
+                                <select class="form-control" id="education_select">
+                                    <option>Bachelor Degree</option>
+                                    <option>Master Degree</option>
+                                </select>
+                                <label>Career</label>
+                                <select class="form-control" id="career_select">
+                                    <option>Computer Science</option>
+                                    <option>Electronics</option>
+                                </select>
+                                <label>Semester</label>
+                                <select class="form-control" id="semester_select">
+                                    <option>Spring</option>
+                                    <option>Fall</option>
+                                    <option>Summer</option>
+                                </select>
+                            </div>
+                            <button onclick="displayCourses()">Search</button>
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Course ID</th>
+                                            <th>Instructor</th>
+                                            <th>Prerequisites</th>
+                                            <th>Credits</th>
+                                            <th>Schedule</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="course_info">
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

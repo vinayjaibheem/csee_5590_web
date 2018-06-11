@@ -1,0 +1,107 @@
+<style>
+        .calculator_shell{
+            margin: 20px auto;
+            padding: 10px;
+            border: black solid 2px;
+            text-align: center;
+            width: 300px;
+            height: 405px;
+            background: lightblue;
+        }
+        .numfield{
+            margin: 10px auto;
+            width: 290px;
+            height: 30px;
+            border: black inset 1px;
+            font-family: "arial", serif;
+            font-size: 20px;
+            background: beige;
+        }
+        #result_field{
+            cursor: default;
+        }
+        .btn {
+            margin: 5px;
+            width: 138px;
+            height: 100px;
+            font-family: "arial", serif;
+            font-size: 50px;
+            border: black inset 1px;
+            background: lightgray;
+        }
+        hr {
+            border: none;
+            width: 290px;
+            height: 1px;
+            background-color: black;
+        }
+    </style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+    <script>
+        var app = angular.module("myCalc", []);
+
+        app.controller("calcCtrl", function ($scope) {
+
+            $scope.add_func = function add_func() {
+                var a = Number($scope.first || 0);
+                var b = Number($scope.second || 0);
+                $scope.result = a+b;
+            }
+
+            $scope.subt_func = function () {
+                var a = Number($scope.first || 0);
+                var b = Number($scope.second || 0);
+                $scope.result = a-b;
+            }
+
+            $scope.multi_func = function () {
+                var a = Number($scope.first || 0);
+                var b = Number($scope.second || 0);
+                $scope.result = a*b;
+            }
+
+            $scope.div_func = function () {
+                var a = Number($scope.first || 0);
+                var b = Number($scope.second || 0);
+                if(b==0){
+                    alert("Error: Divide by Zero");
+                }
+                $scope.result = a/b;
+            }
+
+            });
+    </script>
+
+</head>
+
+<body ng-app="myCalc" ng-controller="calcCtrl">
+
+    <div class="calculator_shell">
+
+        <input type="input" id="result_field" class="numfield" ng-model="result"/>
+        <hr>
+        <input type="input" class="numfield" ng-model="first" ng-init="first=''"/>
+        <input type="input" class="numfield" ng-model="second" ng-init="second=''"/>
+
+        <div>
+            <input type="button" value="+" class="btn" ng-click="add_func()" />
+            <input type="button" value="-" class="btn" ng-click="subt_func()" />
+        </div>
+
+        <div >
+            <input type="button" value="*" class="btn" ng-click="multi_func()" />
+            <input type="button" value="/" class="btn" ng-click="div_func()" />
+        </div>
+
+    </div>
+
+</body>
+
+</html>
