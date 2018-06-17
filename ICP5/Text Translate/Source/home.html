@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+<div class="row">
+    <div class="col-md-5 col-md-offset-3">
+        <input type="text" id="searchKey" placeholder="Search" style="width: 100%" x-webkit-speech>
+        <h4>Translated Value in Hindi:</h4>
+    </div>
+    <div class="col-md-4">
+        <button class="btn btn-primary" ng-click="searchVideo();getTransaltion()">Search</button>
+        <h4>{{translateValue}}</h4>
+    </div>
+</div>
+</body>
+</html>
