@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.knowledge.icp1.LoginActivity"
+    android:background="@drawable/background">
+
+
+    <EditText
+        android:id="@+id/textEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="89dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textColor="#4FC3F7"
+        android:textColorHint="#4FC3F7"
+        android:hint="Username/Email id"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/textPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#4FC3F7"
+        android:textColorHint="#4FC3F7"
+        android:layout_marginTop="40dp"
+        android:hint="Password"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_below="@+id/textEdit"
+        android:layout_alignStart="@+id/textEdit" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mybutton"
+        android:text="Log In"
+        android:onClick="checkCredentials"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="102dp" />
+
+    <TextView
+        android:id="@+id/Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="115dp"
+        android:layout_y="11dp"
+        android:text="User Log In"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#B3E5FC"
+        android:textColorHighlight="#111cea"
+        android:textIsSelectable="false"
+        android:textSize="25dp"
+        android:textStyle="bold|normal"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="-3dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp" />
+</RelativeLayout>
