@@ -15,3 +15,9 @@ ICP6 - https://github.com/vinayjaibheem/csee_5590_web/wiki/ICP6
 ICP7 - https://github.com/vinayjaibheem/csee_5590_web/wiki/ICP7
 
 LAB1 - https://github.com/vinayjaibheem/csee_5590_web/wiki/Web-Lab-Assignment-1
+
+LAB2 - https://github.com/vinayjaibheem/csee_5590_web/wiki/Web-Lab-Assignment-2
+
+-----------------------------------------------------------------
+
+ICP8 - https://github.com/vinayjaibheem/csee_5590_web/wiki/ICP8

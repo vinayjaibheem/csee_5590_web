@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style type="text/css">
+    .node {
+        cursor: pointer;
+    }
+    .overlay{
+        background-color:#EEE;
+    }
+    .node circle {
+        fill: #fff;
+        stroke: steelblue;
+        stroke-width: 1.5px;
+    }
+    .node text {
+        font-size:10px;
+        font-family:sans-serif;
+    }
+    .link {
+        fill: none;
+        stroke: #ccc;
+        stroke-width: 1.5px;
+    }
+    .templink {
+        fill: none;
+        stroke: red;
+        stroke-width: 3px;
+    }
+    .ghostCircle.show{
+        display:block;
+    }
+    .ghostCircle, .activeDrag .ghostCircle{
+        display: none;
+    }
+</style>
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="dndTree.js"></script>
+<script>
+    $(document).ready(function () {
+
+
+        var twit = require('twitter-oauth');
+        var username = "vinayjois12";
+        var config = {
+            "consumer_key": "tKjAlq75QJSELD1ncErDk3N2xq",
+            "consumer_secret": "Hy1xxbAbCB4CtT3pLiWIQIRvYkP1hHHDnleyuN3E5GW1XnLSax",
+            "access_token": "17238748-cnBgBG6siwy3CXsUJB7zUH8dGmhn5uWCgRPzAJa9",
+            "access_token_secret": "1BGcpf7txSW1ElzZysvRbK5RbCQdMwM9xHlz6kjFECyLf"
+        }
+        //var twitter = new Twitter(config);
+        var twt = new twit(config);
+        twt.get('favorites/list', function (error, tweets, response) {
+            if(error) throw error;
+            console.log(tweets);
+            console.log(response);
+        });
+    });
+</script>
+<body>
+<div id="tree-container"></div>
+</body>
+
+</html>
