@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Wed Jul 04 00:20:45 CDT 2018
+0.baseType=DIRECTORY
+0.base=C\:\\Vinay\\Web_Mobile_Cloud\\csee_5590_web\\localgit\\ICP9\\Source\\MyOrder\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\76
+0.path=classes.dex
+0.set=DEX
+count=1

@@ -1,0 +1,4 @@
+#Wed Jul 04 00:20:45 CDT 2018
+base.0=C\:\\Vinay\\Web_Mobile_Cloud\\csee_5590_web\\localgit\\ICP9\\Source\\MyOrder\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\76
+path.0=classes.dex
+renamed.0=classes.dex
