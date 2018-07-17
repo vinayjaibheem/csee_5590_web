@@ -27,4 +27,6 @@ ICP10 - https://github.com/vinayjaibheem/csee_5590_web/wiki/ICP10
 
 ICP11 - https://github.com/vinayjaibheem/csee_5590_web/wiki/ICP11
 
+ICP12 - https://github.com/vinayjaibheem/csee_5590_web/wiki/ICP12
+
 LAB3 - https://github.com/vinayjaibheem/csee_5590_web/wiki/Mobile-Lab-Assignment-1
