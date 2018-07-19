@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\vinay\.android\build-cache\c8901b6f3b4f372aaeb7ae4bd5775818ac0d19a1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="C:\Vinay\Web_Mobile_Cloud\csee_5590_web\localgit\ICP13\Source\Android-Speech-to-Text-Example-master\Android-Speech-to-Text-Example-master\app\build\intermediates\pre-dexed\debug\classes_6ab2e581606d9ee9b7649c34c439307045ec6c80.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\vinay\.android\build-cache\c631613910e26c077cb44f2051ec00f739e58c59\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="C:\Vinay\Web_Mobile_Cloud\csee_5590_web\localgit\ICP13\Source\Android-Speech-to-Text-Example-master\Android-Speech-to-Text-Example-master\app\build\intermediates\pre-dexed\debug\classes_631e419c4488640f407b6272e675188bd3e8b41c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\vinay\.android\build-cache\e5de2541c8aec4e0f430728274c4743cdb71af8e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="C:\Vinay\Web_Mobile_Cloud\csee_5590_web\localgit\ICP13\Source\Android-Speech-to-Text-Example-master\Android-Speech-to-Text-Example-master\app\build\intermediates\pre-dexed\debug\classes_d0c5250c05c2191f48891c2d392a8c3d5580b767.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\vinay\.android\build-cache\87b0ac96978c08b29ca240d6f2f47794490f52f4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="C:\Vinay\Web_Mobile_Cloud\csee_5590_web\localgit\ICP13\Source\Android-Speech-to-Text-Example-master\Android-Speech-to-Text-Example-master\app\build\intermediates\pre-dexed\debug\classes_3e23b6247f5015876ef302edc8963dbf58cb3c63.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\vinay\.android\build-cache\3331b7ec0cd32d4d7f77ccd2c7a7c7b3d7d749ed\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="C:\Vinay\Web_Mobile_Cloud\csee_5590_web\localgit\ICP13\Source\Android-Speech-to-Text-Example-master\Android-Speech-to-Text-Example-master\app\build\intermediates\pre-dexed\debug\classes_4b451558ec3ba1ab7c522b640faf9ec59cc45d89.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\vinay\.android\build-cache\da5af38c2cdbe594017ad2148b943a84e8913628\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Vinay\Web_Mobile_Cloud\csee_5590_web\localgit\ICP13\Source\Android-Speech-to-Text-Example-master\Android-Speech-to-Text-Example-master\app\build\intermediates\pre-dexed\debug\classes_2ea90d06ac44772e0f547c9e3c31206b7d8cf2c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\vinay\.android\build-cache\779f87a16ca7424f42cec6c17e1e05226fe8676f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="C:\Vinay\Web_Mobile_Cloud\csee_5590_web\localgit\ICP13\Source\Android-Speech-to-Text-Example-master\Android-Speech-to-Text-Example-master\app\build\intermediates\pre-dexed\debug\classes_50c7eb872fbccc885193cf5d6d98dc9b6ffdf0d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\vinay\.android\build-cache\830ddbbba96290c09adcc5751231d2f0852e6985\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="C:\Vinay\Web_Mobile_Cloud\csee_5590_web\localgit\ICP13\Source\Android-Speech-to-Text-Example-master\Android-Speech-to-Text-Example-master\app\build\intermediates\pre-dexed\debug\classes_79fcf17343ef6c21092f962ead006232428bc367.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\vinay\.android\build-cache\12a233150cd6a5c2824c08efcc49adf710e040dc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="C:\Vinay\Web_Mobile_Cloud\csee_5590_web\localgit\ICP13\Source\Android-Speech-to-Text-Example-master\Android-Speech-to-Text-Example-master\app\build\intermediates\pre-dexed\debug\classes_fc2d43f11bc5e61d55b08ee484e3956ebac08b52.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\vinay\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="C:\Vinay\Web_Mobile_Cloud\csee_5590_web\localgit\ICP13\Source\Android-Speech-to-Text-Example-master\Android-Speech-to-Text-Example-master\app\build\intermediates\pre-dexed\debug\support-annotations-25.1.0_b182c727a61c44704962d73afd4a7ab76f39e79f.jar" />
+    </item>
+
+</items>
